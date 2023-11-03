@@ -18,6 +18,8 @@ alias l='ls -laGFh'
 alias ll='ls -laGFh'
 alias wttr='curl http://wttr.in/<your lat/lng>'
 
+ssh-add --apple-use-keychain ~/.ssh/<rsa_token>
+
 alias devd='ssh developer-machine@1.2.3.4'
 
 git-whoami () {
